@@ -50,7 +50,7 @@ const Sign = () => {
                 </div>
                 <div>
                     <input
-                        type="text"
+                        type="email"
                         name="email"
                         placeholder="enter your email"
                         onChange={handlemail}
@@ -58,7 +58,7 @@ const Sign = () => {
                 </div>
                 <div>
                     <input
-                        type="text"
+                        type="password"
                         name="password"
                         placeholder="enter your password"
                         onChange={handlpassword}
@@ -67,7 +67,7 @@ const Sign = () => {
                 <div>
                     {/* <h3>Confirm Password</h3> */}
                     <input
-                        type="text"
+                        type="password"
                         name="confirmpassword"
                         placeholder="confirm your password"
                         onChange={handlcpassword}
